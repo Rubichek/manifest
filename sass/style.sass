@@ -5,10 +5,36 @@
 
 .header
     width: 1170px
+    height: 6.25rem
     margin: 0 auto
     display: flex
     justify-content: space-between
     align-items: center
+
+.link 
+    font-size: 14px
+    color: black
+    font-family: Lato
+    font-weight: 400
+    text-transform: uppercase
+    letter-spacing: 4.20px
+    text-decoration: none
+    position: relative
+
+.link::after
+    content: ""
+    position: absolute
+    bottom: -25%
+    left: 50%
+    transform: translateX(-50%) scaleX(0)
+    width: 40px
+    height: 2px
+    background-color: #000
+    transition: transform 0.3s ease-in-out
+
+
+.link:hover::after
+    transform: translateX(-50%) scaleX(1)
 
 ul.menu
     display: flex
@@ -19,19 +45,185 @@ ul.menu
     list-style-type: none
 
 .slide-header
-    background-image: url(../images/bg-image.png)
-    background-repeat: no-repeat
+    position: relative
     height: 600px
 
+.slide-header h1
+    position: absolute
+    max-width: 50%
+    top: 10%
+    left: 9.5%
+    color: black
+    font-size: 48px
+    font-family: Red Hat Display
+    font-weight: 600
+    line-height: 64px
+    letter-spacing: 2.40px
+
+.main-content
+    max-width: 1170px
+    margin: 0 auto
+    
 .article-left-img
     display: flex
+    justify-content: center
 
 .article-right-img
     display: flex
+    justify-content: space-around
 
-.latest-posts
+.latest-posts-header,
+.most-popular-header
     display: flex
     justify-content: space-between
+    align-items: center
+
+.latest-posts-title,
+.most-popular-title
+    color: black
+    font-size: 28px
+    font-family: Red Hat Display
+    font-weight: 600
+    line-height: 46.48px
+    letter-spacing: 2.80px
+
+.latest-posts-see-all,
+.most-popular-see-all
+    color: #7B7B7B
+    font-size: 16px
+    font-family: Lato
+    font-weight: 400
+    line-height: 26.56px
+    letter-spacing: 1.60px
+    text-decoration: none
 
 .posts
     display: flex
+    gap: 30px
+
+.main-content-title
+    color: black
+    font-size: 48px
+    font-family: Red Hat Display
+    font-weight: 400
+    line-height: 64px
+    letter-spacing: 2.40px
+
+.article-info
+    max-width: 600px
+    width: 100%
+    margin: 0 auto
+
+.article-info-right
+    margin: 85px 120px 85px 30px
+    max-width: 450px
+    width: 100%
+
+.article-info-left
+    margin: 85px 30px 85px 120px
+    max-width: 450px
+    width: 100%
+
+.article-info-tag
+    color: #7B7B7B
+    font-size: 16px
+    font-family: Lato
+    font-weight: 400
+    line-height: 26.56px
+    letter-spacing: 1.60px
+
+.article-info-title
+    color: black
+    font-size: 23px
+    font-family: Red Hat Display
+    font-weight: 500
+    line-height: 38.18px
+    letter-spacing: 2.30px
+
+.article-info-date
+    color: #7B7B7B
+    font-size: 16px
+    font-family: Lato
+    font-weight: 400
+    line-height: 26.56px
+    letter-spacing: 1.60px
+
+.article-info-description
+    color: #565656
+    font-size: 16px
+    font-family: Lato
+    font-weight: 400
+    line-height: 26.56px
+    letter-spacing: 0.80px
+
+.article-image
+     max-width: 570px
+
+.article-img
+    width: 100%
+    height: auto
+
+.article-right-img
+    margin-top: 50px
+
+.post-1-image,
+.post-2-image,
+.post-3-image
+    max-width: 370px
+    width: 100%
+    height: auto
+
+.post-1-img,
+.post-2-img,
+.post-3-img
+    width: 370px
+    height: auto
+
+.post-1-heading,
+.post-2-heading,
+.post-3-heading
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+.post-1-heading-tag,
+.post-2-heading-tag,
+.post-3-heading-tag
+    color: #7B7B7B
+    font-size: 12px
+    font-family: Lato
+    font-weight: 400
+    line-height: 19.92px
+    letter-spacing: 1.20px
+
+.post-1-heading-date,
+.post-2-heading-date,
+.post-3-heading-date
+    color: #7B7B7B
+    font-size: 12px
+    font-family: Lato
+    font-weight: 400
+    line-height: 19.92px
+    letter-spacing: 1.20px
+
+.post-1-description-title,
+.post-2-description-title,
+.post-3-description-title
+    color: black
+    font-size: 22px
+    font-family: Red Hat Display
+    font-weight: 500
+    line-height: 36.52px
+    letter-spacing: 2.20px
+    margin-top: 25px
+
+.post-1-description-text,
+.post-2-description-text,
+.post-3-description-text
+    color: #565656
+    font-size: 16px
+    font-family: Lato
+    font-weight: 400
+    line-height: 26.56px
+    letter-spacing: 0.80px
+    margin-top: 20px
