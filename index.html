@@ -309,5 +309,11 @@
         </div>
         <p class="copyright">© Copyright Manifest Theme. Allrights reserved</p>
   </footer>
+  <script>
+    document.querySelector('.hamburger').addEventListener('click', function() {
+      this.classList.toggle('active');
+      document.querySelector('.menu').classList.toggle('open');
+    })
+  </script>
   </body>
 </html>

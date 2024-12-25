@@ -445,9 +445,25 @@ ul.menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
   }
-  .menu {
-    display: none !important;
+  .open {
+    display: flex !important;
+  }
+  ul.menu {
+    display: none;
+    flex-direction: column;
+    z-index: 5;
+    position: absolute;
+    top: 84px;
+    right: 0;
+    flex-wrap: nowrap;
+    background: silver;
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    padding: 30px 0;
   }
   .search-hamburger {
     display: flex;
@@ -475,13 +491,24 @@ ul.menu {
     height: 2px;
     width: 100%;
     background-color: #000;
-    transition: all 0.3s ease 0.3s;
+    transition: all 0.3s ease 0s;
   }
   .hamburger::before {
     top: 0;
   }
   .hamburger::after {
     bottom: 0;
+  }
+  .hamburger.active span {
+    transform: scale(0);
+  }
+  .hamburger.active::before {
+    top: 50%;
+    transform: rotate(-45deg) translate(0, -50%);
+  }
+  .hamburger.active::after {
+    bottom: 50%;
+    transform: rotate(45deg) translate(0, 50%);
   }
   .slide-header h1 {
     max-width: 70%;
