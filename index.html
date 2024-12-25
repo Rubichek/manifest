@@ -1,257 +1,313 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Manifest</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <header class="header">
-            <div class="logo"><img src="images/logo.png" alt="logo"></div>
-            <ul class="menu">
-                <li><a href="#" class="link">home</a></li>
-                <li><a href="#" class="link">about</a></li>
-                <li><a href="#" class="link">works</a></li>
-                <li><a href="#" class="link">blog</a></li>
-                <li><a href="#" class="link">contact</a></li>
-            </ul>
-            <div class="search"><a href=""><img src="images/search.png" alt=""></a></div>
-        </header>
-
-        <div class="slide-header">
-            <img src="images/bg-image.png" alt="">
-            <h1>Manifest is a newborn theme.
-                Clean, simple and fast.</h1>
+      <header class="header">
+        <div class="logo"><img src="images/logo.png" alt="logo" /></div>
+        <ul class="menu">
+          <li><a href="#" class="link">home</a></li>
+          <li><a href="#" class="link">about</a></li>
+          <li><a href="#" class="link">works</a></li>
+          <li><a href="#" class="link">blog</a></li>
+          <li><a href="#" class="link">contact</a></li>
+        </ul>
+        <div class="search-hamburger">
+          <div class="search">
+            <a href=""><img src="images/search.png" alt="" /></a>
+          </div>
+          <div class="hamburger">
+            <span></span>
+          </div>
         </div>
+          
+      </header>
 
-        <div class="main-content">
-            <p class="main-content-title">Blog</p>
+      <div class="slide-header">
+        <picture class="slider">
+          <source srcset="images/bg-image-1440.png" type="image/png" media="(min-width: 769px)">
+          <source srcset="images/bg-image-768.png" type="image/png" media="(min-width: 768px)">
+          <source srcset="images/bg-image-320.png" type="image/png" media="(max-width: 320px)">
+          <img src="images/bg-image.png" alt="" />
+        </picture>
+        
+        <h1>Manifest is a newborn theme. Clean, simple and fast.</h1>
+      </div>
 
-            <div class="article-left-img">
-                <div class="article-image">
-                    <img class="article-img" src="images/image.png" alt="">
-                </div>
-                <div class="article-info">
-                    <div class="article-info-right">
-                        <p class="article-info-tag">
-                            Technology, Interface Design
-                        </p>
-                        <p class="article-info-title">
-                            Using UX Design to Build a Sustainable Future
-                        </p>
-                        <p class="article-info-date">
-                            6 May, 2020
-                        </p>
+      <div class="main-content">
+        <p class="main-content-title">Blog</p>
 
-                        <p class="article-info-description">
-                            Transformation has to be driven by everybody, not just by climate groups, and we have a responsibility to use our influence to drive this. <a href="#"><img src="images/arrow-1.png" alt="arrow"></a>
-                        </p>
-                    </div>
+        <div class="article-left-img">
+          <div class="article-image">
+            <picture class="article-img">
+              <source srcset="images/image-570.png" type="image/png" media="(min-width: 769px)">
+              <source srcset="images/image-340.png" type="image/png" media="(min-width: 768px)">
+              <source srcset="images/image-300.png" type="image/png" media="(max-width:320px)">
+              <img src="images/image-570.png" alt="" />
+            </picture>
+            
+          </div>
+          <div class="article-info">
+            <div class="article-info-right">
+              <p class="article-info-tag">Technology, Interface Design</p>
+              <p class="article-info-title">
+                Using UX Design to Build a Sustainable Future
+              </p>
+              <p class="article-info-date">6 May, 2020</p>
+
+              <p class="article-info-description">
+                Transformation has to be driven by everybody, not just by
+                climate groups, and we have a responsibility to use our
+                influence to drive this.
+                <a href="#"><img src="images/arrow-1.png" alt="arrow" /></a>
+              </p>
             </div>
+          </div>
         </div>
-            <div class="article-right-img">
-                <div class="article-info">
-                    <div class="article-info-left">
-                        <p class="article-info-tag">
-                            Technology, Interface Design
-                        </p>
-                        <p class="article-info-title">
-                            Using UX Design to Build a Sustainable Future
-                        </p>
-                        <p class="article-info-date">
-                            6 May, 2020
-                        </p>
+        <div class="article-right-img">
+          <div class="article-info">
+            <div class="article-info-left">
+              <p class="article-info-tag">Technology, Interface Design</p>
+              <p class="article-info-title">
+                Using UX Design to Build a Sustainable Future
+              </p>
+              <p class="article-info-date">6 May, 2020</p>
 
-                        <p class="article-info-description">
-                            Transformation has to be driven by everybody, not just by climate groups, and we have a responsibility to use our influence to drive this.
-                        </p>
-                    </div>
-                </div>
-                <div class="article-image">
-                    <img class="article-img" src="images/blog-img.png" alt="">
-                </div>
+              <p class="article-info-description">
+                Transformation has to be driven by everybody, not just by
+                climate groups, and we have a responsibility to use our
+                influence to drive this.
+              </p>
             </div>
+          </div>
+          <div class="article-image">
+
+            <picture class="article-img">
+              <source srcset="images/blog-img-1440.png" type="image/png" media="(min-width: 769px)">
+              <source srcset="images/blog-img-340.png" type="image/png" media="(min-width: 768px)">
+              <source srcset="images/blog-img-320.png" type="image/png" media="(max-width:320px)">
+              <img src="images/blog-img.png" alt="" />
+            </picture>
+
+          </div>
+        </div>
 
         <div class="latest-posts">
-            <div class="latest-posts-header">
-                <p class="latest-posts-title">Latest Posts</p>
-                    <a class="latest-posts-see-all" href="#">View All <img src="/images/arrow-2.png" alt=""></a>
-            </div>
-            
-        
+          <div class="latest-posts-header">
+            <p class="latest-posts-title">Latest Posts</p>
+            <a class="latest-posts-see-all" href="#"
+              >View All <img src="/images/arrow-2.png" alt=""
+            /></a>
+          </div>
 
-            <div class="posts">
-                <div class="post-1">
-                    <div class="post-1-image">
-                        <img class="post-1-img" src="images/post-1.png" alt="">
-                    </div>
-                    <div class="post-1-heading">
-                        <p class="post-1-heading-tag">
-                            Interface Design
-                        </p>
-                        <p class="post-1-heading-date">
-                            8 June, 2020
-                        </p>
-                    </div>
-                    <div class="post-1-description">
-                        <div class="post-1-description-title">
-                            UX traffic light colours
-                        </div>
-                        <div class="post-1-description-text">
-                            UI has to make a huge visual difference between warning, an alert and a success.
-                        </div>
-                    </div>
-                </div>
-
-                <div class="post-2">
-                    <div class="post-2-image">
-                        <img class="post-2-img" src="images/post-2.png" alt="">
-                    </div>
-                    <div class="post-2-heading">
-                        <p class="post-2-heading-tag">
-                            Technology
-                        </p>
-                        <p class="post-2-heading-date">
-                            6 May, 2020
-                        </p>
-                    </div>
-
-                    <div class="post-2-description">
-                        <div class="post-2-description-title">
-                            Using UX Design to Build a Sustainable Future
-                        </div>
-                        <div class="post-2-description-text">
-                            UI has to make a huge visual difference between warning, an alert and a success.
-                        </div>
-                    </div>
-                </div>
-
-                <div class="post-3">
-                    <div class="post-3-image">
-                        <img class="post-3-img" src="images/post-3.png" alt="">
-                    </div>
-                    <div class="post-3-heading">
-                        <p class="post-3-heading-tag">
-                            Visual Design
-                        </p>
-                        <p class="post-3-heading-date">
-                            8 June, 2020
-                        </p>
-                    </div>
-
-                    <div class="post-3-description">
-                        <div class="post-3-description-title">
-                            Creativity vs. UX
-                        </div>
-                        <div class="post-3-description-text">
-                            Is it possible to create a delightful user experience without following best UX practices?
-                        </div>
-                    </div>
-                </div>
-        </div>
-    </div>
-
-
-
-    <div class="most-popular">
-        <div class="most-popular-header">
-            <p class="most-popular-title">The Most Popular</p>
-                <a class="most-popular-see-all" href="#">View All <img src="/images/arrow-2.png" alt=""></a>
-        </div>
-        
-    
-
-        <div class="posts">
+          <div class="posts">
             <div class="post-1">
-                <div class="post-1-image">
-                    <img class="post-1-img" src="images/popular-post-image-1.png" alt="">
-                </div>
+              <div class="post-1-image">
+
+                <picture class="post-1-img">
+                  <source srcset="images/post-1.png" type="image/png" media="(min-width: 769px)">
+                  <source srcset="images/post-1-340.png" type="image/png" media="(min-width: 768px)">
+                  <source srcset="images/post-1-320.png" type="image/png" media="(max-width:320px)">
+                  <img src="images/post-1.png" alt="" />
+                </picture>
+
+                
+              </div>
+              <div class="post-heading-description post-heading-description-right">
                 <div class="post-1-heading">
-                    <p class="post-1-heading-tag">
-                        Interface Design
-                    </p>
-                    <p class="post-1-heading-date">
-                        8 June, 2020
-                    </p>
+                  <p class="post-1-heading-tag">Interface Design</p>
+                  <p class="post-1-heading-date">8 June, 2020</p>
                 </div>
                 <div class="post-1-description">
-                    <div class="post-1-description-title">
-                        UX traffic light colours
-                    </div>
-                    <div class="post-1-description-text">
-                        UI has to make a huge visual difference between warning, an alert and a success.
-                    </div>
+                  <div class="post-1-description-title">
+                    UX traffic light colours
+                  </div>
+                  <div class="post-1-description-text">
+                    UI has to make a huge visual difference between warning, an
+                    alert and a success.
+                  </div>
                 </div>
+              </div>
             </div>
-
             <div class="post-2">
-                <div class="post-2-image">
-                    <img class="post-2-img" src="images/post-2.png" alt="">
-                </div>
+              <div class="post-2-image">
+
+                <picture class="post-2-img">
+                  <source srcset="images/post-2.png" type="image/png" media="(min-width: 769px)">
+                  <source srcset="images/post-2-340.png" type="image/png" media="(min-width: 768px)">
+                  <source srcset="images/post-2-320.png" type="image/png" media="(max-width:320px)">
+                  <img src="images/post-2.png" alt="" />
+                </picture>
+
+              </div>
+              <div class="post-heading-description post-heading-description-responsive">
                 <div class="post-2-heading">
-                    <p class="post-2-heading-tag">
-                        Technology
-                    </p>
-                    <p class="post-2-heading-date">
-                        6 May, 2020
-                    </p>
+                  <p class="post-2-heading-tag">Technology</p>
+                  <p class="post-2-heading-date">6 May, 2020</p>
                 </div>
 
                 <div class="post-2-description">
-                    <div class="post-2-description-title">
-                        Using UX Design to Build a Sustainable Future
-                    </div>
-                    <div class="post-2-description-text">
-                        UI has to make a huge visual difference between warning, an alert and a success.
-                    </div>
+                  <div class="post-2-description-title">
+                    Using UX Design to Build a Sustainable Future
+                  </div>
+                  <div class="post-2-description-text">
+                    UI has to make a huge visual difference between warning, an
+                    alert and a success.
+                  </div>
                 </div>
+              </div>
             </div>
 
             <div class="post-3">
-                <div class="post-3-image">
-                    <img class="post-3-img" src="images/post-3.png" alt="">
-                </div>
-                <div class="post-3-heading">
-                    <p class="post-3-heading-tag">
-                        Visual Design
-                    </p>
-                    <p class="post-3-heading-date">
-                        8 June, 2020
-                    </p>
-                </div>
+              <div class="post-3-image">
 
+                <picture class="post-3-img">
+                  <source srcset="images/post-3.png" type="image/png" media="(min-width: 769px)">
+                  <source srcset="images/post-3-340.png" type="image/png" media="(min-width: 768px)">
+                  <source srcset="images/post-3-320.png" type="image/png" media="(max-width:320px)">
+                  <img src="images/post-3.png" alt="" />
+                </picture>
+
+                
+              </div>
+              <div class="post-heading-description post-heading-description-right">
+                <div class="post-3-heading">
+                  <p class="post-3-heading-tag">Visual Design</p>
+                  <p class="post-3-heading-date">8 June, 2020</p>
+                </div>
                 <div class="post-3-description">
-                    <div class="post-3-description-title">
-                        Creativity vs. UX
-                    </div>
-                    <div class="post-3-description-text">
-                        Is it possible to create a delightful user experience without following best UX practices?
-                    </div>
+                  <div class="post-3-description-title">Creativity vs. UX</div>
+                  <div class="post-3-description-text">
+                    Is it possible to create a delightful user experience without
+                    following best UX practices?
+                  </div>
                 </div>
             </div>
-    </div>
-</div>
-
-
-
+            </div>
+          </div>
         </div>
 
+        <div class="most-popular">
+          <div class="most-popular-header">
+            <p class="most-popular-title">The Most Popular</p>
+            <a class="most-popular-see-all" href="#"
+              >View All <img src="/images/arrow-2.png" alt=""
+            /></a>
+          </div>
 
+          <div class="articles">
+            <div class="article-1">
+              <div class="article-1-image">
+                
+                <picture class="article-1-img">
+                  <source srcset="images/popular-post-image-1.png" type="image/png" media="(min-width: 769px)">
+                  <source srcset="images/popular-post-image-1-340.png" type="image/png" media="(min-width: 768px)">
+                  <source srcset="images/popular-post-image-1-320.png" type="image/png" media="(max-width:320px)">
+                  <img src="images/popular-post-image-1.png" alt="" />
+                </picture>
 
+              </div>
+              <div class="article-1-heading">
+                <p class="article-1-heading-tag">Interface Design</p>
+                <p class="article-1-heading-date">8 June, 2020</p>
+              </div>
+              <div class="article-1-description">
+                <p class="article-1-description-title">
+                  Mentorship Match — How a simple LinkedIn feature can boost
+                  diversity
+                </p>
+                <p class="article-1-description-text">
+                  LinkedIn is on a clear mission to make professionals more
+                  successful by connecting the global workforce and as we
+                  learned — diversity and success go hand in hand
+                </p>
+              </div>
+            </div>
 
+            <div class="article-2">
+              <div class="article-2-image">
 
+                <picture class="article-2-img">
+                  <source srcset="images/popular-post-image-2.png" type="image/png" media="(min-width: 769px)">
+                  <source srcset="images/popular-post-image-2-340.png" type="image/png" media="(min-width: 768px)">
+                  <source srcset="images/popular-post-image-2-320.png" type="image/png" media="(max-width:320px)">
+                  <img src="images/popular-post-image-2.png" alt="" />
+                </picture>
 
-    <footer class="footer"></footer>
+                
+              </div>
+              <div class="article-2-heading">
+                <p class="article-2-heading-tag">Visual Design</p>
+                <p class="article-2-heading-date">8 June, 2020</p>
+              </div>
 
-
-
+              <div class="article-2-description">
+                <p class="article-2-description-title">Creativity vs. UX</p>
+                <p class="article-2-description-text">
+                  Is it possible to create a delightful user experience without
+                  following best UX practices?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="article-btn">
+            <button class="load-more-btn">Load More</button>
+          </div>
+        </div>
+        <div class="info">
+            <p class="info-block-1">
+                Full-time UI/UX designer 
+                Head of Design at VeronaLabs.com
+                <br><a href=""><img src="/images/arrow-2.png" alt=""/></a>
+            </p>
+            <p class="info-block-2">
+                We work with clients around the world from our headquarters in Charleston, South Carolina.
+                <br><br>We focus on naming, branding, brand narratives, website design and development, and brand experiences.
+            </p>
+        </div>
+      </div>
     </div>
-</body>
+    <footer class="footer">
+        <div class="cta">
+           
+            <div class="contact">
+                <p class="need-project">Need a project?</p>
+                <a class="contact-tel" href="tel:+32395550108">(239) 555-0108</a>
+                <a class="contact-email" href="mailto:tanya.hill@example.com">tanya.hill@example.com</a>
+            </div>
+            <ul class="social">
+                <li><a href="#"><svg class="instagram-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12.0029 5.8467C8.59691 5.8467 5.84962 8.594 5.84962 12C5.84962 15.406 8.59691 18.1533 12.0029 18.1533C15.4089 18.1533 18.1562 15.406 18.1562 12C18.1562 8.594 15.4089 5.8467 12.0029 5.8467ZM12.0029 16.0004C9.80187 16.0004 8.00247 14.2064 8.00247 12C8.00247 9.7936 9.79651 7.99955 12.0029 7.99955C14.2093 7.99955 16.0034 9.7936 16.0034 12C16.0034 14.2064 14.204 16.0004 12.0029 16.0004ZM19.8431 5.595C19.8431 6.39295 19.2005 7.03024 18.4079 7.03024C17.61 7.03024 16.9727 6.38759 16.9727 5.595C16.9727 4.80241 17.6153 4.15977 18.4079 4.15977C19.2005 4.15977 19.8431 4.80241 19.8431 5.595ZM23.9186 7.05166C23.8275 5.12909 23.3884 3.42608 21.9799 2.02298C20.5768 0.619882 18.8738 0.180743 16.9513 0.0843468C14.9698 -0.0281156 9.03069 -0.0281156 7.04922 0.0843468C5.132 0.175388 3.429 0.614526 2.02054 2.01763C0.612085 3.42073 0.178302 5.12373 0.0819054 7.0463C-0.030557 9.02778 -0.030557 14.9669 0.0819054 16.9483C0.172946 18.8709 0.612085 20.5739 2.02054 21.977C3.429 23.3801 5.12665 23.8193 7.04922 23.9157C9.03069 24.0281 14.9698 24.0281 16.9513 23.9157C18.8738 23.8246 20.5768 23.3855 21.9799 21.977C23.383 20.5739 23.8222 18.8709 23.9186 16.9483C24.031 14.9669 24.031 9.03314 23.9186 7.05166ZM21.3587 19.0744C20.941 20.1241 20.1323 20.9327 19.0773 21.3558C17.4975 21.9824 13.7488 21.8378 12.0029 21.8378C10.2571 21.8378 6.50297 21.977 4.9285 21.3558C3.87885 20.9381 3.07019 20.1294 2.64712 19.0744C2.02054 17.4946 2.16514 13.7458 2.16514 12C2.16514 10.2542 2.0259 6.50006 2.64712 4.92558C3.06484 3.87593 3.87349 3.06728 4.9285 2.6442C6.50833 2.01763 10.2571 2.16222 12.0029 2.16222C13.7488 2.16222 17.5029 2.02298 19.0773 2.6442C20.127 3.06192 20.9356 3.87058 21.3587 4.92558C21.9853 6.50541 21.8407 10.2542 21.8407 12C21.8407 13.7458 21.9853 17.4999 21.3587 19.0744Z"/>
+                  </svg></a></li>
+                <li><a href="#"><svg class="facebook-icon" width="14" height="24" viewBox="0 0 14 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12.5845 13.5L13.251 9.15656H9.08338V6.33797C9.08338 5.14969 9.66557 3.99141 11.5321 3.99141H13.4268V0.293438C13.4268 0.293438 11.7074 0 10.0635 0C6.63135 0 4.38791 2.08031 4.38791 5.84625V9.15656H0.572754V13.5H4.38791V24H9.08338V13.5H12.5845Z"/>
+                    </svg></a></li>
+                <li><a href="#"><svg class="twitter-icon" width="30" height="24" viewBox="0 0 30 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M26.7376 5.98123C26.7564 6.24372 26.7564 6.50626 26.7564 6.76875C26.7564 14.775 20.6626 24 9.52511 24C6.09384 24 2.90636 23.0062 0.225098 21.2813C0.712616 21.3375 1.18132 21.3563 1.68759 21.3563C4.5188 21.3563 7.12509 20.4 9.20635 18.7688C6.54384 18.7125 4.31258 16.9688 3.54382 14.5687C3.91885 14.625 4.29383 14.6625 4.68762 14.6625C5.23135 14.6625 5.77514 14.5874 6.28136 14.4563C3.50636 13.8937 1.42505 11.4562 1.42505 8.51249V8.43752C2.23127 8.88752 3.16885 9.16877 4.16252 9.20622C2.53127 8.1187 1.46256 6.26247 1.46256 4.16246C1.46256 3.03748 1.76251 2.00623 2.28754 1.10622C5.2688 4.78122 9.75008 7.18118 14.775 7.44372C14.6813 6.99372 14.625 6.52502 14.625 6.05626C14.625 2.71872 17.325 0 20.6813 0C22.425 0 24 0.731248 25.1063 1.9125C26.475 1.65001 27.7875 1.14374 28.95 0.450003C28.5 1.85628 27.5438 3.03754 26.2875 3.78748C27.5063 3.6563 28.6876 3.31872 29.775 2.85002C28.9502 4.04997 27.9189 5.11868 26.7376 5.98123V5.98123Z"/>
+                  </svg></a></li>
+                <li><a href="#"><svg class="linkedin-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5.37226 24H0.396437V7.97643H5.37226V24ZM2.88167 5.79066C1.29056 5.79066 0 4.47278 0 2.88167C1.13885e-08 2.1174 0.303604 1.38444 0.844022 0.844022C1.38444 0.303604 2.1174 0 2.88167 0C3.64594 0 4.3789 0.303604 4.91932 0.844022C5.45974 1.38444 5.76334 2.1174 5.76334 2.88167C5.76334 4.47278 4.47224 5.79066 2.88167 5.79066ZM23.9952 24H19.0301V16.1998C19.0301 14.3409 18.9926 11.9569 16.443 11.9569C13.856 11.9569 13.4596 13.9766 13.4596 16.0659V24H8.48912V7.97643H13.2614V10.1622H13.331C13.9953 8.90323 15.618 7.57463 18.039 7.57463C23.0748 7.57463 24.0005 10.8908 24.0005 15.198V24H23.9952Z"/>
+                  </svg></a></li>
+            </ul>
+            
+        </div>
+        <p class="copyright">© Copyright Manifest Theme. Allrights reserved</p>
+  </footer>
+  </body>
 </html>

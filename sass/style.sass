@@ -4,7 +4,7 @@
     padding: 0
 
 .header
-    width: 1170px
+    max-width: 1170px
     height: 6.25rem
     margin: 0 auto
     display: flex
@@ -46,7 +46,11 @@ ul.menu
 
 .slide-header
     position: relative
-    height: 600px
+    //height: 600px
+
+.slider
+    max-width: 100%
+    height: auto
 
 .slide-header h1
     position: absolute
@@ -60,7 +64,8 @@ ul.menu
     line-height: 64px
     letter-spacing: 2.40px
 
-.main-content
+.main-content,
+.cta
     max-width: 1170px
     margin: 0 auto
     
@@ -169,26 +174,30 @@ ul.menu
 .post-1-image,
 .post-2-image,
 .post-3-image
-    max-width: 370px
-    width: 100%
+    // max-width: 370px
+    // width: 100%
     height: auto
 
 .post-1-img,
 .post-2-img,
 .post-3-img
-    width: 370px
+    max-width: 370px
     height: auto
 
 .post-1-heading,
 .post-2-heading,
-.post-3-heading
+.post-3-heading,
+.article-1-heading,
+.article-2-heading
     display: flex
     justify-content: space-between
     align-items: center
 
 .post-1-heading-tag,
 .post-2-heading-tag,
-.post-3-heading-tag
+.post-3-heading-tag,
+.article-1-heading-tag,
+.article-2-heading-tag
     color: #7B7B7B
     font-size: 12px
     font-family: Lato
@@ -198,7 +207,9 @@ ul.menu
 
 .post-1-heading-date,
 .post-2-heading-date,
-.post-3-heading-date
+.post-3-heading-date,
+.article-1-heading-date,
+.article-2-heading-date
     color: #7B7B7B
     font-size: 12px
     font-family: Lato
@@ -208,7 +219,9 @@ ul.menu
 
 .post-1-description-title,
 .post-2-description-title,
-.post-3-description-title
+.post-3-description-title,
+.article-1-description-title,
+.article-2-description-title
     color: black
     font-size: 22px
     font-family: Red Hat Display
@@ -219,7 +232,9 @@ ul.menu
 
 .post-1-description-text,
 .post-2-description-text,
-.post-3-description-text
+.post-3-description-text,
+.article-1-description-text,
+.article-2-description-text
     color: #565656
     font-size: 16px
     font-family: Lato
@@ -227,3 +242,361 @@ ul.menu
     line-height: 26.56px
     letter-spacing: 0.80px
     margin-top: 20px
+
+.articles
+    display: flex
+    gap: 30px
+
+.article-1-image,
+.article-2-image
+    max-width: 570px
+    width: 100%
+    height: auto
+
+.article-1-img,
+.article-2-img
+    max-width: 570px
+    height: auto
+
+.article-btn
+    display: flex
+    justify-content: center
+    margin-top: 50px
+
+.load-more-btn
+    background: #565656
+    color: white
+    font-size: 16px
+    font-family: Lato
+    font-weight: 700
+    line-height: 26.56px
+    letter-spacing: 1.60px
+    padding: 9.5px 45px
+    border: none
+
+.load-more-btn:hover
+    cursor: pointer
+
+.info
+    display: flex
+    gap: 230px
+    margin-top: 90px
+
+.info-block-1
+    max-width: 470px
+    width: 100%
+    color: black
+    font-size: 23px
+    font-family: Red Hat Display
+    font-weight: 400
+    line-height: 38.18px
+    letter-spacing: 2.30px
+
+.info-block-2
+    // max-width: 470px
+    // width: 100%
+    color: #565656
+    font-size: 19px
+    font-family: Lato
+    font-weight: 400
+    line-height: 32px
+    letter-spacing: 0.95px
+
+.footer
+    background: #F4F4F4
+    margin-top: 90px
+
+
+.cta
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+.need-project
+    color: black
+    font-size: 48px
+    font-family: Red Hat Display
+    font-weight: 400
+    line-height: 64px
+    letter-spacing: 2.40px
+    margin: 70px 0 30px
+
+.contact-tel
+    color: black
+    font-size: 16px
+    font-family: Lato
+    font-weight: 400
+    line-height: 26.56px
+    letter-spacing: 1.60px
+    text-decoration: none
+
+.contact-email
+    color: black
+    font-size: 16px
+    font-family: Lato
+    font-weight: 400
+    line-height: 26.56px
+    letter-spacing: 1.60px
+    text-decoration: none
+
+.social
+    display: flex
+    gap: 23px
+
+.social li
+    list-style-type: none
+
+
+.instagram-icon,
+.twitter-icon,
+.linkedin-icon
+    border: 1px #565656 solid
+    padding: 13px
+    fill: #565656
+
+.facebook-icon
+    border: 1px #565656 solid
+    padding: 13px 18.57px
+    fill: #565656
+
+
+.facebook-icon:hover
+    background: #565656
+    fill: #ffffff
+
+.instagram-icon:hover,
+.twitter-icon:hover,
+.linkedin-icon:hover
+    background: #565656
+    fill: #ffffff
+
+.copyright
+    text-align: center
+    color: black
+    font-size: 12px
+    font-family: Lato
+    font-weight: 400
+    line-height: 19.92px
+    letter-spacing: 1.20px
+    padding-bottom: 30px
+
+@media (max-width: 768px)
+    .container
+        max-width: 768px
+        margin: 0 auto
+        padding: 0
+    
+    .main-content
+        max-width: 700px
+        margin: 0 auto
+        padding: 0
+
+    .header
+        max-width: 700px
+        height: 6.25rem
+        margin: 0 auto
+        display: flex
+        justify-content: space-between
+        align-items: center
+    
+    .menu
+        display: none !important
+    
+    .search-hamburger
+        display: flex
+        gap: 40px
+
+    .hamburger
+        display: flex
+        position: relative
+        z-index: 50
+        align-items: center
+        justify-content: flex-end
+        width: 30px
+        height: 18px
+
+    .hamburger span
+        height: 2px
+        width: 100%
+        transform: scale(1)
+        background-color: #000
+    
+    .hamburger::before,
+    .hamburger::after
+        content: ''
+        position: absolute
+        height: 2px
+        width: 100%
+        background-color: #000
+        transition: all 0.3s ease 0.3s
+    
+    .hamburger::before
+        top: 0
+    
+    .hamburger::after
+        bottom: 0
+
+    .slide-header h1
+        max-width: 70%
+        font-size: 36px
+        font-weight: 600
+        line-height: 50px
+        letter-spacing: 1.80px
+
+    .article-info-right
+        margin: 0 0 0 20px
+    
+    .article-info-tag
+        margin: 0
+
+    .article-info-left
+        margin: 0
+
+    .posts
+        display: flex
+        flex-direction: column
+    
+    .post-1,
+    .post-3
+        display: flex
+    
+    .post-2
+        display: flex
+        flex-direction: row-reverse
+    
+    .post-1-img,
+    .post-2-img,
+    .post-3-img
+        max-width: 100%
+        height: auto
+
+    .post-heading-description
+        // margin-left: 20px
+
+
+    .article-1-img,
+    .article-2-img
+        max-width: 100%
+        height: auto
+    
+    .info
+        display: block
+
+    .info-block-2
+        text-align: right
+        width: 100%
+
+    .cta
+        display: flex
+        flex-direction: column
+
+    .contact
+        display: flex
+        flex-direction: column
+        align-items: center
+
+    .need-project
+        margin-bottom: 20px
+    
+    .contact-email
+        margin-top: 20px
+    
+    ul.social
+        margin-top: 51.34px
+
+    .post-heading-description-responsive
+        margin-right: 20px
+
+    .post-heading-description-right
+        margin-left: 20px
+
+
+@media (max-width: 320px)
+    .container
+        max-width: 320px
+        margin: 0 auto
+        padding: 0
+    
+    .main-content
+        max-width: 300px
+        margin: 0 auto
+        padding: 0
+
+    .header
+        max-width: 300px
+        height: 6.25rem
+        margin: 0 auto
+        display: flex
+        justify-content: space-between
+        align-items: center
+
+    .slide-header h1
+        max-width: 100%
+        font-size: 30px
+        font-weight: 600
+        line-height: 50px
+        letter-spacing: 1.50px
+
+    .slider
+        width: 100%
+
+    .main-content-title
+        font-size: 48px
+        font-weight: 400
+        line-height: 64px
+        letter-spacing: 2.40px
+        text-align: center
+    
+    .article-left-img
+        display: flex
+        flex-direction: column-reverse
+    
+    .article-right-img
+        display: flex
+        flex-direction: column
+    
+
+    .latest-posts
+        margin-top: 70px
+
+    .latest-posts-header
+        display: flex
+        flex-direction: column
+        align-items: flex-start
+    
+    .latest-posts-title
+        margin: 0
+
+    .post-1
+        display: flex
+        flex-direction: column
+    
+    .post-2
+        display: flex
+        flex-direction: column
+    
+    .post-3
+        display: flex
+        flex-direction: column
+    
+    .most-popular-header
+        display: flex
+        flex-direction: column
+        align-items: flex-start
+
+    .most-popular-title
+        margin: 70px 0 0
+
+    .articles
+        display: flex
+        flex-direction: column
+    
+    .info-block-2
+        text-align: left
+    
+    .need-project
+        font-size: 32px
+        letter-spacing: 1.60px
+    
+    ul.social
+        padding: 0
